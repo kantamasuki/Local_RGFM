@@ -1,6 +1,6 @@
 # Renormalization Group Flow Matching for Scalable Local Generative Modeling
 
-![thumbnail.png](rgfm_thumbnail.png)
+![thumnbail](rgfm_thumbnail.png)
 
 Implementation of [Renormalization Group Flow Matching for Scalable Local Generative Modeling](https://arxiv.org/abs/xxxxx) by Kanta Masuki and Yuto Ashida.
 
