@@ -17,6 +17,14 @@ This directory contains local renormalization-group flow matching (local RGFM) a
 
 The conditionally local dataset is generated on the fly by `dataset.py`. No external dataset file is required.
 
+## Checkpoints
+
+The checkpoints used in the paper is provided [here](url). To run the code with the excecution below, the checkpoint directory should be placed as 
+
+```
+REPOSITORY_DIRECTORY/check_points/cond_loc/...
+```
+
 ## Execution Scripts
 
 Execution scripts are stored in `exe_files/`. Run the commands below from the repository root. The optional final argument is the GPU index and defaults to `0`.

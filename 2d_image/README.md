@@ -40,6 +40,14 @@ python resize_ffhq.py --img_size 256
 
 The resized images are saved under `datasets/ffhq256/`. Only these first 5,000 images were used for the 256 x 256 numerical experiments.
 
+## Checkpoints
+
+The checkpoints used in the paper is provided [here](url). To run the code with the excecution below, the checkpoint directory should be placed as 
+
+```
+REPOSITORY_DIRECTORY/check_points/image/...
+```
+
 ## Preparation for FID Evaluation
 
 FID evaluation requires clean-FID statistics for the original real images. These statistics can be created with `other_utils/fid_stats_maker.py`:

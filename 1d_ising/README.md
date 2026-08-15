@@ -24,6 +24,14 @@ python 1d_ising/other_utils/1Dising_dataset_make.py \
   --out_dir 1d_ising/dataset_ising1d_open
 ```
 
+## Checkpoints
+
+The checkpoints used in the paper is provided [here](url). To run the code with the excecution below, the checkpoint directory should be placed as 
+
+```
+REPOSITORY_DIRECTORY/check_points/ising/...
+```
+
 ## Execution Scripts
 
 Execution scripts are stored in `exe_files/`. Run the commands below from the repository root. The optional final argument is the GPU index and defaults to `0`.
