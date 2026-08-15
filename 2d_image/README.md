@@ -154,4 +154,4 @@ bash 2d_image/exe_files/fm_evaluate_L64_P32.sh 0
 
 ## Outputs
 
-Training outputs are written under the `logdir` specified in each config, with checkpoints in its `ckpt/` subdirectory. Sampling saves generated image grids. Evaluation saves clean-FID generated statistics, preview images, and a CSV result.
+Outputs are written under the `logdir` specified in each config. Training saves checkpoints in its `ckpt/` subdirectory. Sampling saves generated image grids. Evaluation saves clean-FID generated statistics, preview images, and a CSV result.

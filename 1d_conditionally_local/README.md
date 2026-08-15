@@ -53,12 +53,6 @@ The sampling and evaluation scripts expect `L1024.pt`, `L512.pt`, `L256.pt`, `L1
 check_points/cond_loc/rgfm_baseL1024/
 ```
 
-The output of the sampling and evaluation are saved to
-
-```
-1d_conditionally_local/condloc_rgfm/logs/
-```
-
 ### Evaluation
 
 ```bash
@@ -85,12 +79,6 @@ The sampling and evaluation scripts expect:
 check_points/cond_loc/fm_L1024.pt
 ```
 
-The output of the sampling and evaluation are saved to
-
-```
-1d_conditionally_local/condloc_fm/logs/
-```
-
 ### Evaluation
 
 ```bash
@@ -99,4 +87,4 @@ bash 1d_conditionally_local/exe_files/fm_evaluate.sh 0
 
 ## Outputs
 
-Training outputs are written under the `logdir` specified in each config, with checkpoints in its `ckpt/` subdirectory. Sampling saves generated tensors. Evaluation computes the real-space two-point correlation function and saves a CSV file and a JSON summary.
+Outputs are written under the `logdir` specified in each config. Training saves checkpoints in its `ckpt/` subdirectory. Sampling saves generated tensors. Evaluation computes the real-space two-point correlation function and saves a CSV file.

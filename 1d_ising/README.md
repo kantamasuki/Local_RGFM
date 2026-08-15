@@ -94,4 +94,4 @@ bash 1d_ising/exe_files/fm_evaluate_L1024_xi128.sh 0
 
 ## Outputs
 
-Training outputs are written under the `logdir` specified in each config, with checkpoints in its `ckpt/` subdirectory. Sampling saves generated tensors. Evaluation computes the open-boundary real-space two-point correlation function directly from the generated values and saves a CSV file and a JSON summary.
+Outputs are written under the `logdir` specified in each config. Training saves checkpoints in its `ckpt/` subdirectory. Sampling saves generated tensors. Evaluation computes the real-space two-point correlation function and saves a CSV file.

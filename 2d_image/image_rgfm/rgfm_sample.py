@@ -221,7 +221,7 @@ def main():
     parser.add_argument("--ckpt16", type=str, required=True)
     parser.add_argument("--ckpt_key", type=str, default="ema_model")
     parser.add_argument("--device", type=str, default="1")
-    parser.add_argument("--out_dir", type=str, default="./samples")
+    parser.add_argument("--out_dir", type=str, default="./logs/samples")
     parser.add_argument("--batch_size", type=int, default=1)
     parser.add_argument("--num_samples", type=int, default=1)
     parser.add_argument("--save_batches", type=int, default=1)
