@@ -1,0 +1,33 @@
+{
+    "dataset_key": "lowfreq_sine",
+    "base_L": 1024,
+    "L": 256,
+    "log_root": "./logs/rgfm_L1024",
+    "num_workers": 4,
+    "lr": 0.0002,
+    "total_steps": 50001,
+    "warmup": 5000,
+    "grad_clip": 1.0,
+    "ema_decay": 0.995,
+    "sample_size": 16,
+    "sample_step": 5000,
+    "save_step": 10000,
+    "sigma_min": 0.3,
+    "mu_min": 0.01,
+    "mL": 0.02,
+    "reg_name": "exp",
+    "batch_size": 400,
+    "hidden_dim": 64,
+    "time_dim": 64,
+    "depth": 6,
+    "kernel_size": 5,
+    "sample_n_steps": 20,
+    "sample_method": "midpoint",
+    "sample_rtol": 1e-05,
+    "sample_atol": 1e-05,
+    "t_interval": [
+        0.5003385662356206,
+        0.5945565357687035
+    ],
+    "logdir": "./logs/rgfm_L1024/L256_t0p50_0p59"
+}

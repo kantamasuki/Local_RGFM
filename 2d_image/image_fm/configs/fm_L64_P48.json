@@ -1,0 +1,37 @@
+{
+    "dataset_key": "ffhq64",
+    "img_size": 64,
+    "logdir": "./logs/fm_L64_P48",
+    "num_workers": 4,
+    "total_steps": 1000001,
+    "lr": 0.0002,
+    "warmup": 5000,
+    "grad_clip": 1.0,
+    "ema_decay": 0.9999,
+    "sample_size": 8,
+    "sample_step": 50000,
+    "save_step": 50000,
+    "sigma_min": 0.05,
+    "P": 48,
+    "D": 16,
+    "stride": 16,
+    "normalize_coord": true,
+    "batch_size": 8,
+    "ch": 128,
+    "ch_mult": [
+        1,
+        2,
+        2,
+        2
+    ],
+    "attn": [
+        1
+    ],
+    "num_res_blocks": 2,
+    "dropout": 0.1,
+    "sample_n_steps": 300,
+    "sample_method": "midpoint",
+    "sample_rtol": 1e-05,
+    "sample_atol": 1e-05,
+    "reconstruct_t": 0.5
+}

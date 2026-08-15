@@ -1,0 +1,46 @@
+{
+    "dataset_key": "ffhq64",
+    "base_img_size": 64,
+    "log_root": "./logs/rg_L64_P32",
+    "num_workers": 4,
+    "lr": 0.0002,
+    "total_steps": 150001,
+    "warmup": 5000,
+    "grad_clip": 1.0,
+    "ema_decay": 0.9999,
+    "sample_size": 16,
+    "sample_step": 25000,
+    "save_step": 50000,
+    "sigma_min": 0.05,
+    "mu_min": 0.00635,
+    "m0": 0.47123889803846897,
+    "mL": 0.07853981633974483,
+    "reg_name": "exp",
+    "normalize_coord": true,
+    "batch_size": 128,
+    "ch": 128,
+    "ch_mult": [
+        1,
+        2,
+        2,
+        2
+    ],
+    "attn": [
+        1
+    ],
+    "num_res_blocks": 2,
+    "dropout": 0.1,
+    "sample_n_steps": 100,
+    "sample_method": "midpoint",
+    "sample_rtol": 1e-05,
+    "sample_atol": 1e-05,
+    "img_size": 16,
+    "P": 16,
+    "D": 16,
+    "stride": 16,
+    "t_interval": [
+        0.7176315427511741,
+        1.0
+    ],
+    "logdir": "./logs/rg_L64_P32/L16_P16_D16_t0p72_1p00"
+}

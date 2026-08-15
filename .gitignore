@@ -1,0 +1,4 @@
+check_points/
+__pychache__/
+*.pyc
+.DS_Store
