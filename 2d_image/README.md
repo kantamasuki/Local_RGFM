@@ -42,7 +42,7 @@ The resized images are saved under `datasets/ffhq256/`. Only these first 5,000 i
 
 ## Checkpoints
 
-The checkpoints used in the paper is provided [here](url). To run the code with the excecution below, the checkpoint directory should be placed as 
+The checkpoints used in the paper is provided [here](https://drive.google.com/drive/u/0/folders/1KRgC8oH0bsuUaFy1pjjBamuFy-7zhSVW). To run the code with the excecution below, the checkpoint directory should be placed as 
 
 ```
 REPOSITORY_DIRECTORY/check_points/image/...

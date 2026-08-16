@@ -8,7 +8,7 @@ Renormalization group flow matching (RGFM) is a generative modeling framework ba
 
 In this GitHub repository, we provide the Python code used for the numerical experiments presented in the paper. For detailed usage instructions, please refer to the README files in `./1d_ising/`, `./1d_conditionally_local/`, and `./2d_image/`. respectively.
 
-Please contact kmasuki@g.ecc.u-tokyo.ac.jp with any comments or issues regarding this repository.
+Please contact masuki@g.ecc.u-tokyo.ac.jp with any comments or issues regarding this repository.
 
 The citation key of our work is
 ```

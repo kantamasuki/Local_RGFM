@@ -19,7 +19,7 @@ The conditionally local dataset is generated on the fly by `dataset.py`. No exte
 
 ## Checkpoints
 
-The checkpoints used in the paper is provided [here](url). To run the code with the excecution below, the checkpoint directory should be placed as 
+The checkpoints used in the paper is provided [here](https://drive.google.com/drive/u/0/folders/1KRgC8oH0bsuUaFy1pjjBamuFy-7zhSVW). To run the code with the excecution below, the checkpoint directory should be placed as 
 
 ```
 REPOSITORY_DIRECTORY/check_points/cond_loc/...
