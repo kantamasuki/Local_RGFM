@@ -16,7 +16,7 @@ The citation key of our work is
       title={Renormalization Group Flow Matching for Scalable Local Generative Modeling}, 
       author={Kanta Masuki and Yuto Ashida},
       year={2026},
-      eprint={2601.xxxxx},
+      eprint={2608.xxxxx},
       archivePrefix={arXiv},
 }
 ```
