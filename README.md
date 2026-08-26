@@ -12,11 +12,13 @@ Please contact masuki@g.ecc.u-tokyo.ac.jp with any comments or issues regarding 
 
 The citation key of our work is
 ```
-@misc{KY2026rgfm,
+@misc{KY2026_localRGFM,
       title={Renormalization Group Flow Matching for Scalable Local Generative Modeling}, 
       author={Kanta Masuki and Yuto Ashida},
       year={2026},
-      eprint={2608.xxxxx},
+      eprint={2608.23696},
       archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2608.23696}, 
 }
 ```
