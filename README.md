@@ -2,7 +2,7 @@
 
 ![thumnbail](rgfm_thumbnail.png)
 
-Implementation of [Renormalization Group Flow Matching for Scalable Local Generative Modeling](https://arxiv.org/abs/xxxxx) by Kanta Masuki and Yuto Ashida.
+Implementation of [Renormalization Group Flow Matching for Scalable Local Generative Modeling](https://arxiv.org/abs/2608.23696) by Kanta Masuki and Yuto Ashida.
 
 Renormalization group flow matching (RGFM) is a generative modeling framework based on the exact renormalization group that leverages the multiscale structures inherent in natural data. By exploiting the scale-separation property and quasi-locality of the renormalization group (RG), the RGFM enables local generative modeling that is scalable with respect to the system size $L$.
 
